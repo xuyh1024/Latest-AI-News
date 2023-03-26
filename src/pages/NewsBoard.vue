@@ -1,0 +1,22 @@
+<template>
+  <div class="news-board">
+    <h1>AI 新闻</h1>
+    <a-card title="Default size card" style="width: 300px">
+      <template #extra><a href="#">more</a></template>
+      <p>card content</p>
+      <p>card content</p>
+      <p>card content</p>
+    </a-card>
+    <br />
+    <a-card size="small" title="Small size card" style="width: 300px">
+      <template #extra><a href="#">more</a></template>
+      <p>card content</p>
+      <p>card content</p>
+      <p>card content</p>
+    </a-card>
+  </div>
+</template>
+
+<script lang="ts" setup>
+
+</script>
